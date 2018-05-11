@@ -21,4 +21,13 @@ public class UserController {
         users.add("wangwu");
         return users;
     }
+	
+	 @RequestMapping("/get")
+    public List get(){
+        List<String> users = new ArrayList<>();
+        users.add("zhangsan");
+        users.add("lisi");
+        users.add("wangwu");
+        return users;
+    }
 }
